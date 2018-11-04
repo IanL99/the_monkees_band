@@ -1,12 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
 
 
+/* Split the screen in half */
+/*.split {*/
+/*  height: 100%;*/
+/*  width: 60%;*/
+/*  position: fixed;*/
+/*  z-index: 1;*/
+/*  top: 0;*/
+/*  overflow-x: hidden;*/
+/*  padding-top: 20px;*/
+/*  background-color: red;*/
+/*}*/
+/*.right {*/
+/*  right: 0;*/
+/*  background-color: red;*/
+/*}*/
+
 .bg-color-name-title
 {    background-color: #676767;
 }
 
 .ui-menu-color-about_us{
     background-color: #FFD700;
+    /*padding-left: 50px;*/
 }
 
 .ui-menu-color-videos{
@@ -142,7 +159,7 @@ header{
 }
 
 .menuitem a i{
-    padding-top: 22px;
+    padding-top: 12px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -165,7 +182,7 @@ header{
 
 .hvr-sweep-to-bottom:before{
     background: rgba(0, 0, 0, 0.2);
-    height: 75px;
+    height: 89px;
 }  
 
 /* FOOTER */
@@ -173,5 +190,5 @@ footer{
     background-color: #525252;
     color: #fafafa;
     max-height: 100px;
-    margin: 0;
+    margin: 50px;
 }
