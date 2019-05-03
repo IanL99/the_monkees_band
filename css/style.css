@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
+        @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
 
 .bg-color-name-title
 {    background-color: #676767;
@@ -7,7 +7,7 @@
 
 .ui-menu-color-home{
     background-color: #FFD700;
-    /*padding-left: 50px;*/    
+    /*padding-left: 50px;*/
 }
 
 .ui-menu-color-film
@@ -177,5 +177,8 @@ footer{
 
 .pad20 {
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right:12em;
+    /*word-wrap: break-word;*/
+    /*letter-spacing: 1em;*/
+
 }
