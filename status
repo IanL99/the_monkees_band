@@ -1,0 +1,35 @@
+[33mcommit 61e7bacc2f083bcd328cd3893d0efbd30fc4593f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Ian Lawrence <ian-l.lawrence@hotmail.co.uk>
+Date:   Fri May 3 17:14:29 2019 +0000
+
+    Mostly working - comments/README to be added
+
+[33mcommit 1d03f000612422cf728bcbe1c131d1ba1c744149[m
+Author: Ian Lawrence <ian-l.lawrence@hotmail.co.uk>
+Date:   Mon Dec 3 12:48:31 2018 +0000
+
+    Works ok apart from >767 pixels - where everything changes to small
+
+[33mcommit 36f6082b6eab2beb698f9293a86ee0730bc97277[m
+Author: Ian Lawrence <ian-l.lawrence@hotmail.co.uk>
+Date:   Sun Nov 4 13:29:58 2018 +0000
+
+    1st page and renamed to index.html
+
+[33mcommit ddc03c363cdff6e363d983fb4a9dbd37c41ced84[m
+Author: Ian Lawrence <ian-l.lawrence@hotmail.co.uk>
+Date:   Thu Nov 1 19:09:43 2018 +0000
+
+    Start of first page
+
+[33mcommit 9bf70798b8d971c5c049daf1fc87d71a75635e9f[m
+Author: Ian Lawrence <ian-l.lawrence@hotmail.co.uk>
+Date:   Mon Oct 8 11:33:28 2018 +0000
+
+    Basics in place
+
+[33mcommit f350971bd3e603d91c4f9556c64a21cbaf2e073b[m
+Author: Ian Lawrence <ian-l.lawrence@hotmail.co.uk>
+Date:   Fri Oct 5 17:55:46 2018 +0000
+
+    initial version

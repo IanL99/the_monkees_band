@@ -1,41 +1,46 @@
-        @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-.bg-color-name-title
-{    background-color: #676767;
-     color: #FFFFFF;
+.bg-color-name-title {
+    background-color: #676767;
+    color: #FFFFFF;
 }
 
-.ui-menu-color-home{
+.ui-menu-color-home {
     background-color: #FFD700;
     /*padding-left: 50px;*/
 }
 
-.ui-menu-color-film
-{
+.ui-menu-color-music {
+    background-color: #ADFF2F;
+    /*padding-left: 50px;*/
+}
+
+.ui-menu-color-film {
     background-color: #98FB98;
 }
 
-.ui-menu-color-music{
+.ui-menu-color-music {
     background-color: #FFA07A;
 }
 
-.ui-menu-color-photos{
+.ui-menu-color-photos {
     background-color: #ADFF2F;
 }
 
-    /* Special Paddings/Margins/Text */
-    h1,
-    h2,
-    h3,
-    h4 {
-        margin: 0;
-    }
+/* Special Paddings/Margins/Text */
 
-.uppercase{
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
     text-transform: uppercase;
 }
 
-.general-sub{
+.general-sub {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     color: #fafafa;
@@ -43,75 +48,86 @@
 
 /* HEADING */
 
-header{
+header {
     margin: 0;
-}            
+}
 
-.heading{
+.heading {
     text-align: center;
-}            
-
-.cover2{
-    background: url("../assets/images/cover2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-left: 20px;
 }
 
-.play_videos{
-    margin-left: 30px;
+.row-table {
+    display: table;
 }
 
-.name{
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.name {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    font-size: 30px;    
-    margin-top: 10px;
-    color:#ffffff;
-}    
-
-
-.title{
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 28px;
     margin-top: 20px;
     margin-bottom: 10px;
-    color: #ffffff; 
+    color: #ffffff;
 }
 
-#nav{
+#nav {
     margin: 0;
 }
 
-#nav li{
+#nav li {
     padding: 0;
 }
 
-.menuitem{
+.menuitem {
     height: 90px;
     text-align: center;
     padding: 0;
 }
 
-.menuitem a{
-    width:100%;
+.menuitem a {
+    width: 100%;
     text-decoration: none;
     color: #000000;
+    height: 90px;
 }
 
-.menuitem a i{
+.menuitem a i {
     padding-top: 12px;
     display: block;
     color: #fafafa;
     font-size: 26px;
 }
 
-.menuitem span{
+.menuitem span {
     display: block;
     width: 100%;
-/*    padding-top: 5px;*/
+    padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
@@ -119,15 +135,16 @@ header{
     letter-spacing: 2px;
 }
 
-/* HOVER */
+.col-xs-12.col-sm-6.col-lg-4.left-side {z-index: 100}
 
-.hvr-sweep-to-bottom:before{
-    background: rgba(0, 0, 0, 0.2);
-    height: 89px;
-}  
+.hvr-sweep-to-bottom:after {
+background: rgba(0, 0, 0, 0.2);
+    height: 90px
+}
 
 /* FOOTER */
-footer{
+
+footer {
     background-color: #525252;
     color: #fafafa;
     max-height: 100px;
@@ -149,9 +166,9 @@ footer{
     color: #fafafa;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    /*-moz-transition: all 0.35s ease-in-out;*/
+    /*-webkit-transition: all 0.35s ease-in-out;*/
+    /*-o-transition: all 0.35s ease-in-out;*/
 }
 
 .social-links li a i:hover {
@@ -160,25 +177,26 @@ footer{
 
 #footer-details {
     margin: 20px;
-}                    
+}
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
+
 .column {
     float: left;
     width: 50%;
 }
 
 /* Clear floats after the columns */
+
 .row:after {
     content: "";
     display: table;
     clear: both;
-}    
+}
 
 .pad20 {
     padding-left: 20px;
-    padding-right:12em;
-    /*word-wrap: break-word;*/
+    padding-right: 20px;
+    /*word-wrap: break-word;
     /*letter-spacing: 1em;*/
-
 }
