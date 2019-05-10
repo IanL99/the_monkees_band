@@ -1,5 +1,6 @@
-##Project the_monkees_band
-####The purpose of this project is to showcase the history of a famous '60s band - the monkees
+### Project the_monkees_band
+
+##### The purpose of this project is to showcase the history of a famous '60s band - the monkees
 
 There are functions to:
 * display the history of the band including a youtube video
@@ -53,3 +54,10 @@ Press play for the video . The video should start.
 4. Press VIEW_PHOTOS to locate to 4th page.
 Page 4 is displayed with links to pages 1 - 4, facebook, twitter, youtube.
 All pictures are displayed.
+
+Project Deployment
+This project has been deployed to Github including all of the code / tracks and pictures.
+The project can be run by accessing the repo (https://github.com/IanL99/the_monkees_band),
+choose Settings, scrolldown to GitHub Pages, then selecting (clicking) the Your site is
+published at https://ianl99.github.io/the_monkees_band/. The index.html code should then
+be kicked off.
