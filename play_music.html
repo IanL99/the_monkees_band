@@ -2,21 +2,23 @@
 <html>
 
 <head>
-<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, viewport-fit=cover">
+    <!--inclusion of various functions (bootstrap) / fonts-->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, viewport-fit=cover">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
 
+    <!--Use container-fluid for a full width container-->
     <header class="container-fluid">
-
+        
         <div class="row">
-                <a href=play_music.html>
-                    <div class="col-md-4 logo"></div>
-                </a>
+            <a href="play_music.html">
+                <div class="col-md-4 logo"></div>
+            </a>
             <div class="col-md-12">
                 <div class="row bg-color-name-title">
                     <!--heading -->
@@ -31,7 +33,7 @@
                 </div>
             </div>
             
-            <!--social links-->
+            <!--include social links (facebook / twitter /youtube) -->
             <div class="pad20" style="padding-left:20px;">
                 <h5 class="uppercase general-sub">My Social</h5>
                 <ul class="list-inline social-links">
@@ -44,25 +46,27 @@
 
     </header>
 
-        <div class="col-xs-12 col-sm-6 col-lg-4 left-side">
-            <!--logo-->
-            <img src="assets/images/cover2.png" alt="" class="img-responsive" width=100%>
-            <ul class="list-unstyled">
-            <!--buttons (links to pages, with hover)-->
-                <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-home menuitem">
-                    <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>ABOUT US</span></a>
-                </li>
-                <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-music menuitem">
-                    <a href="play_music.html" class="hvr-sweep-to-bottom"><i class="fa fa-music" aria-hidden="true"></i><span>PLAY MUSIC</span></a>
-                </li>
-                <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-film menuitem">
-                    <a href="play_videos.html" class="hvr-sweep-to-bottom"><i class="fa fa-film" aria-hidden="true"></i><span>PLAY VIDEOS</span></a>
-                </li>
-                <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-photos menuitem">
-                    <a href="view_photos.html" class="hvr-sweep-to-bottom"><i class="fa fa-camera" aria-hidden="true"></i><span>VIEW PHOTOS</span></a>
-                </li>
-            </ul>
-        </div>
+    <!--include logo / page buttons-->
+    <div class="col-xs-12 col-sm-6 col-lg-4 left-side">
+        <!--logo-->
+        <img src="assets/images/cover2.png" alt="" class="img-responsive" width=100%>
+        <!--page buttons-->
+        <ul class="list-unstyled">
+        <!--buttons (links to pages, with hover)-->
+            <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-home menuitem">
+                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>ABOUT US</span></a>
+            </li>
+            <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-music menuitem">
+                <a href="play_music.html" class="hvr-sweep-to-bottom"><i class="fa fa-music" aria-hidden="true"></i><span>PLAY MUSIC</span></a>
+            </li>
+            <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-film menuitem">
+                <a href="play_videos.html" class="hvr-sweep-to-bottom"><i class="fa fa-film" aria-hidden="true"></i><span>PLAY VIDEOS</span></a>
+            </li>
+            <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-photos menuitem">
+                <a href="view_photos.html" class="hvr-sweep-to-bottom"><i class="fa fa-camera" aria-hidden="true"></i><span>VIEW PHOTOS</span></a>
+            </li>
+        </ul>
+    </div>
 
     <section>
 
@@ -73,20 +77,20 @@
                     <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-music menuitem">
                         <!--<div style="width:500px; margin:auto; position:relative;">-->
                         <a href="play_music.html" aria-hidden="true"></i><span>Clarksville<br></span></a>
-                        <audio controls><source src="../assets/audio/Clarksville.mp3" type="audio/mpeg">
+                        <audio controls><source src="assets/audio/Clarksville.mp3" type="audio/mpeg">
                         </audio>
                     </li>
                     <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-music menuitem">
                         <a href="play_music.html" aria-hidden="true"></i><span>I'm A Believer</span></a>
-                        <audio controls><source src="../assets/audio/ImABeliever.mp3" type="audio/mpeg">
+                        <audio controls><source src="assets/audio/ImABeliever.mp3" type="audio/mpeg">
                     </li>
                     <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-music menuitem">
                         <a href="play_music.html" aria-hidden="true"></i><span>Day Dream Believer</span></a>
-                            <audio controls><source src="../assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                            <audio controls><source src="assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
                     </li>
                     <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-music menuitem">
                         <a href="play_music.html" aria-hidden="true"></i><span>Stepping Stone</span></a>
-                            <audio controls><source src="../assets/audio/SteppingStone.mp3" type="audio/mpeg">
+                            <audio controls><source src="assets/audio/SteppingStone.mp3" type="audio/mpeg">
                     </li>
                 <div>
             </ul>    

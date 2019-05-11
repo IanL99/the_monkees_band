@@ -2,21 +2,25 @@
 <html>
 
 <head>
-<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, viewport-fit=cover">
+    <!--inclusion of various functions (bootstrap) / fonts-->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, viewport-fit=cover">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
 
+    <!--Use container-fluid for a full width container-->
     <header class="container-fluid">
-
+        
         <div class="row">
             <a href="play_videos.html"></a>
+                <div class="col-md-4 logo"></div>
             <div class="col-xs-12">
                 <div class="row bg-color-name-title">
+                    <!--heading -->
                     <div class="heading">
                         <center>
                             <h1 class="name">THE MONKEES</h1>
@@ -28,7 +32,7 @@
                 </div>
             </div>
 
-            <!--social links-->
+            <!--include social links (facebook / twitter /youtube) -->
             <div class="pad20" style="padding-left:20px;">
                 <h5 class="uppercase general-sub">My Social</h5>
                 <ul class="list-inline social-links">
@@ -41,10 +45,13 @@
 
     </header>
 
+    <!--include logo / page buttons-->
     <div class="col-xs-12 col-sm-6 col-lg-4 left-side">
         <!--logo-->
         <img src="assets/images/cover2.png" alt="" class="img-responsive" width=100%>
+        <!--page buttons-->
         <ul class="list-unstyled">
+            <!--buttons (links to pages, with hover)-->
             <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-home menuitem">
                 <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>ABOUT US</span></a>
             </li>
@@ -68,7 +75,7 @@
                     <!--play videos-->
                     <li class="col-xs-3 col-sm-3 col-lg-3 ui-menu-color-music menuitem">
                         <a href="play_videos.html" aria-hidden="true"></i><span>Day Dream Believer<br></span></a>
-                        <video controls><source src="../assets/videos/DayDreamBeliever.mp4" type="audio/mpeg">
+                        <video controls><source src="assets/videos/DayDreamBeliever.mp4" type="audio/mpeg">
                     </li>
                 <div>
             </ul>    
